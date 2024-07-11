@@ -1,7 +1,7 @@
 from socket import *
 import json
 
-HOST = "{your_server_ip_address}"
+HOST = "192.168.1.115"
 PORT = 8080
 BUFSIZE = 1024
 server_address = (HOST,PORT)

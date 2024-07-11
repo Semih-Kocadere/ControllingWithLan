@@ -7,8 +7,8 @@ HOST = ""
 PORT = 8080
 BUFSIZE = 1024
 server_address = (HOST, PORT)
-Username = "paye"
-Password = "12345"
+Username = "USERNAME"
+Password = "PASSWORD"
 # IPV4 ailesi ve TCP tipinde bir soket olusturur.
 server_socket = socket(AF_INET, SOCK_STREAM)
 server_socket.bind(server_address)
